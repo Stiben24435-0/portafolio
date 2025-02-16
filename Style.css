@@ -1,0 +1,101 @@
+body {
+  background-color: #2b2b2b; /* Fondo oscuro */
+  color: #e0e0e0; /* Texto claro */
+  font-family: 'Courier New', Courier, monospace; /* Fuente de estilo consola */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+  /* Encabezado similar a un editor de código */
+  header {
+    background-color: #333333; /* Fondo de la cabecera */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #444444; /* Línea debajo */
+  }
+
+  h1 {
+    color: #61dafb; /* Color llamativo (azul claro) */
+    font-size: 36px;
+  }
+
+  /* Contenido principal */
+  
+  main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+    
+
+  
+
+  /* Títulos secundarios */
+  h2 {
+    color: #61dafb; /* Azul claro */
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  /* Párrafos */
+  p {
+    color: #bdbdbd; /* Gris suave */
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  /* Lista de tecnologías */
+  ul {
+    list-style-type: none; /* Elimina los puntos por defecto */
+    padding-left: 0;
+  }
+
+  li {
+    background-color: #3e3e3e; /* Fondo gris oscuro para cada item */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  /* Botón similar a los de las aplicaciones */
+  button {
+    background-color: #4CAF50; /* Verde brillante */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #45a049; /* Cambia a verde más oscuro al pasar el ratón */
+  }
+
+  /* Enlaces */
+  a {
+    color: #61dafb; /* Azul claro para los enlaces */
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #333333; /* Fondo oscuro */
+    padding: 20px;
+    text-align: center;
+    color: #bdbdbd;
+  }
+
+  /* Añadir transiciones suaves para efectos */
+  * {
+    transition: all 0.3s ease;
+  }
+  
